@@ -1,0 +1,103 @@
+
+    @font-face {
+            font-family: 'CrucifixSansOne-Regular';
+            src: url('../Font/CrucifixSansOne-Regular.woff2') format('woff2'),
+                 url('../Font/CrucifixSansOne-Regular.woff') format('woff'),
+                 url('../Font/CrucifixSansOne-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    body {
+        background-color: #222222; 
+        color: #aaaaaa; 
+        font-family: 'CrucifixSansOne-Regular', sans-serif;
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        justify-content: center;
+    }
+    footer {
+        background-color: #222222; 
+        color: #aaaaaa; 
+        font-family: 'CrucifixSansOne-Regular', sans-serif;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .container {
+        padding: 20px;
+        max-width: 1000px;
+    }
+
+    .img-wrapper {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 159px;
+    width: 159px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    }
+
+    .img-wrapper img {
+    height: 100%; /* Change this from auto to 100% */
+    width: auto; /* Add this line to maintain aspect ratio */
+    display: block; /* Add this line to enable margin auto to work */
+    margin: auto; /* Add this line to center the image horizontally */
+}
+
+    .profile-header h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .profile-header p {
+        margin: 5px 0;
+    }
+
+    .link_icons {
+            font-size: 1.5em; 
+            margin-right: 15px;
+        }
+
+    .section-header {
+        color: #ffffff;
+        font-size: 40px;
+    }
+
+    .job-header {
+        color: #ffffff;
+    }
+
+    th {
+        text-align: left;
+    }
+    tr {
+        white-space: nowrap;
+        padding: 5px;
+        white-space: normal;
+        
+    }
+    .table-column-dates {
+        padding-right: 30px;
+        white-space: nowrap;
+    }
+    .language-column-dates {
+        padding-right: 50px;
+        white-space: nowrap;
+        padding-top: 5px;
+    }
+    table {
+        width: 130%;
+        display: block;
+        white-space: normal;
+    }
+    .cover-container {
+        max-width: 45em;
+        text-align: center;
+    }
